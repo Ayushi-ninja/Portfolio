@@ -30,3 +30,6 @@ Thumbs.db
 
 # Vercel / Netlify
 .vercel
+
+# Accidentally cloned subfolder
+/Portfolio/
