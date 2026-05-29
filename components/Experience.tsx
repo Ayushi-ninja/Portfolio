@@ -30,16 +30,15 @@ const experiences = [
     ],
   },
   {
-    role: "Founder & Lead Developer",
+    role: "Developer",
     company: "Clario — AI Career Guidance Platform",
     period: "Oct 2025 – Nov 2025",
     type: "Project Lead",
     color: "#34d399",
     points: [
-      "Architected an AI-powered career guidance platform from ground up",
-      "Integrated Azure Computer Vision OCR + Google Gemini for resume analysis",
-      "Built LangChain pipelines for intelligent career recommendations",
-      "Implemented role-based auth, mentor connectivity, and Redis caching",
+      "Developed Mock test feature for students",
+      "Developed Webrtc based 1:1 mentor-student video calling system",
+      "Added Drag and drop feature in job traker"
     ],
   },
 ];
