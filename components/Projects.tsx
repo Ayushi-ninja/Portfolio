@@ -3,17 +3,7 @@ import { motion } from "framer-motion";
 import { FiGithub, FiStar } from "react-icons/fi";
 
 const projects = [
-  {
-    title: "Clario",
-    subtitle: "AI Career Guidance Platform",
-    description:
-      "Full-stack AI platform that analyzes resumes using Azure Computer Vision OCR, generates personalized career recommendations via Google Gemini & LangChain pipelines, role-based auth, Redis caching, and mentor connectivity features.",
-    tags: ["Azure OCR", "Google Gemini", "LangChain", "Redis", "React", "Node.js", "JWT"],
-    github: "https://github.com/Ayushi-ninja",
-    featured: true,
-    color: "#00d4ff",
-    emoji: "🤖",
-  },
+ 
   {
     title: "KINDBITE",
     subtitle: "AI + IoT Food Waste Monitor",
@@ -37,16 +27,17 @@ const projects = [
     emoji: "🌍",
   },
   {
-    title: "Lakshagriha",
-    subtitle: "IoT RC Boat — Hackathon Winner",
-    description:
-      "Award-winning hackathon project: autonomous RC boat with ESP32, pH/TDS water quality sensors, real-time Blynk & Firebase dashboard. Measures water contamination levels remotely.",
-    tags: ["ESP32", "IoT", "Blynk", "Firebase", "pH Sensors", "TDS", "C++"],
-    github: "https://github.com/Ayushi-ninja",
-    featured: false,
-    color: "#f59e0b",
-    emoji: "⛵",
-  },
+  title: "CAREER MENTORSHIP WEBRTC",
+  subtitle: "Real-time Video Call Platform",
+  description:
+    "Full-stack video conferencing platform for career mentorship sessions. Features WebRTC peer-to-peer video calling with screen sharing, real-time chat with emoji support, typing indicators, and session management. Supabase handles real-time signaling, chat persistence, and room state management with auto-timeout functionality.",
+  tags: ["Next.js", "React", "WebRTC", "Supabase", "TypeScript", "Real-time", "Screen Sharing"],
+  github: "https://github.com/Ayushi-ninja",
+  featured: true,
+  color: "#3b82f6",
+  emoji: "🎥",
+}
+ 
 ];
 
 export default function Projects() {
