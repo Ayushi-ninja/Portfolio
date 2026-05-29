@@ -40,7 +40,7 @@ const experiences = [
       "Developed Webrtc based 1:1 mentor-student video calling system",
       "Added Drag and drop feature in job traker"
     ],
-  },
+  }
 ];
 
 export default function Experience() {
